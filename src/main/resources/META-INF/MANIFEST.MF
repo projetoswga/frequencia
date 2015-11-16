@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Build-Jdk: 1.6.0_30
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: br.com.frequencia
+Built-By: ESAF - Escola de Administração Fazendária
+Implementation-Title: Sistema de Frequência
+Implementation-Site: http://www.esaf.fazenda.gov.br
+

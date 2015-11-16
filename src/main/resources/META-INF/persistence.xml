@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+<persistence-unit name="frequencia" transaction-type="RESOURCE_LOCAL">
+        <class>br.com.frequencia.model.Credenciamento</class>
+        <class>br.com.frequencia.model.Evento</class>
+        <class>br.com.frequencia.model.Frequencia</class>
+        <class>br.com.frequencia.model.Horario</class>
+        <class>br.com.frequencia.model.Orgao</class>
+        <class>br.com.frequencia.model.Participante</class>
+        <class>br.com.frequencia.model.ParticipanteDestaque</class>
+        <class>br.com.frequencia.model.ParticipanteInscrito</class>
+        <class>br.com.frequencia.model.Sala</class>
+        <class>br.com.frequencia.model.Turma</class>
+        <class>br.com.frequencia.model.Usuario</class>
+        <properties>
+			<property name="hibernate.connection.url" value="jdbc:sqlite:./etc/db/frequencia.db"/>
+            <property name="hibernate.connection.driver_class" value="org.sqlite.JDBC"/>
+            <property name="hibernate.dialect" value="br.com.frequencia.util.SQLiteDialect"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="false"/>
+            <property name="hibernate.hbm2ddl.auto" value="validate"/>
+        </properties>
+    </persistence-unit>
+</persistence>
