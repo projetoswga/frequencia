@@ -1,6 +1,5 @@
 Manifest-Version: 1.0
 Built-By: Wesley Marra
-Build-Jdk: 1.8.0_65
 Class-Path: lib/jasperreports-4.5.1.jar lib/commons-beanutils-1.8.0.ja
  r lib/commons-collections-2.1.jar lib/commons-digester-2.1.jar lib/co
  mmons-logging-1.1.1.jar lib/itext-2.1.7.jar lib/bcmail-jdk14-138.jar 
@@ -19,6 +18,7 @@ Class-Path: lib/jasperreports-4.5.1.jar lib/commons-beanutils-1.8.0.ja
  or-4.3.1.Final.jar lib/validation-api-1.0.0.GA.jar lib/jcsv-1.4.0.jar
   lib/sqlite-jdbc-3.7.2.jar lib/log4j-1.2.16.jar lib/animated-gif-lib-
  1.1.jar
-Main-Class: br.com.frequencia.app.Main
+Build-Jdk: 1.8.0_60
 Created-By: Maven Integration for Eclipse
+Main-Class: br.com.frequencia.app.Main
 
